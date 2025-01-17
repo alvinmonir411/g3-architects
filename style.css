@@ -122,3 +122,62 @@ section {
   }
 }
 /* future love */
+.future_Love {
+  display: flex;
+  text-align: left;
+  margin-top: 5rem;
+}
+.Future_love_text > h1 {
+  border-left: 5px solid tomato;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+.Future_love_text {
+  margin-right: 6rem;
+}
+.Future_love_text > p {
+  color: gray;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+.future_Love .cart {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 150px;
+  padding: 10px;
+  margin: 2rem;
+  box-shadow: 0 5px 5px gray;
+}
+.Future_love_img img {
+  margin-top: 3rem;
+}
+.Future_love_img a {
+  border: 1px solid tomato;
+  padding: 30px;
+  background-color: tomato;
+  color: white;
+  margin-top: -300px;
+  margin-left: -70px;
+}
+@media screen and (max-width: 576px) {
+  .future_Love {
+    flex-direction: column;
+  }
+  .Future_love_text .cart {
+    width: 100%;
+    height: auto;
+  }
+  .Future_love_img img {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Future_love_img a {
+    margin: 5rem;
+  }
+}
