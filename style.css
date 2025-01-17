@@ -2,6 +2,9 @@
 .work-sans-font {
   font-family: "Work Sans", serif;
 }
+body {
+  background-color: whitesmoke;
+}
 * {
   margin: 0;
   padding: 0;
@@ -179,5 +182,53 @@ section {
   }
   .Future_love_img a {
     margin: 5rem;
+  }
+}
+/* some facts */
+.some_facts {
+  text-align: left;
+}
+.some_facts h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.some_facts p {
+  color: gray;
+}
+.boxes {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+}
+.box img {
+  width: 50%;
+  margin: 0 auto;
+}
+.box h5 {
+  font-size: 2rem;
+  color: gray;
+  font-weight: 500;
+  margin: 0;
+}
+.box span {
+  font-size: 4rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  .some_facts {
+    margin: 5rem auto;
+    text-align: center;
+  }
+
+  .boxes {
+    flex-direction: column;
   }
 }
